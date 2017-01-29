@@ -1,10 +1,10 @@
 {
   "name": "angelsaddons-locales",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "factorio_version": "0.14",
   "title": "Angel's Addons - Locales",
   "author": "Arch666Angel, sore68",
   "homepage": "",
   "description": "Adds translations for Angel's mods from the Community.(locales list : ko, )",
-  "dependencies": ["? angelsaddons-oresilos", "? angelsaddons-pressuretanks", "? angelsaddons-warehouses", "? angelsbioprocessing", "? angelsinfiniteores", "? angelspetrochem", "? angelsrefining", "? angelssmelting"]
+  "dependencies": ["? angelsaddons-oresilos", "? angelsaddons-pressuretanks", "? angelsaddons-warehouses", "? angelsbioprocessing", "? angelsinfiniteores", "? angelspetrochem", "? angelsrefining", "? angelssmelting", "? PCP"]
 }
