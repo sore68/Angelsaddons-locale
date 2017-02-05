@@ -1,4 +1,4 @@
-if bobmods.plates then
+if bobmods and bobmods.plates then
 	--SINGLE GEM CRYSTALLIZATION
 	data.raw["recipe"]["angelsore7-crystallization-1"].localised_name = {"recipe-name.angelsore7-crystallization-1", {"item-name.sapphire-Ore"}}
 	data.raw["recipe"]["angelsore7-crystallization-2"].localised_name = {"recipe-name.angelsore7-crystallization-2", {"item-name.topaz-Ore"}}
@@ -77,7 +77,7 @@ if bobmods.plates then
 	data.raw["recipe"]["angelsore6-pure"].localised_description = {"item-description.angels-ore6-pure", {"item-name.tin-ore"}, {"item-name.quartz"}, {"item-name.cobalt-ore"}, {"item-name.zinc-ore"}, {"item-name.bauxite-ore"}, {"item-name.tungsten-ore"}}
 end
 
-if angelsmods.components then
+if angelsmods and angelsmods.components then
 	--LOCALIZATION STRINGS
 	data.raw["recipe"]["slag-processing-1"].localised_name = {"recipe-name.slag-processing-1", {"item-name.iron-ore"}, {"item-name.copper-ore"}}
 	data.raw["recipe"]["slag-processing-2"].localised_name = {"recipe-name.slag-processing-2", {"item-name.lead-ore"}, {"item-name.tin-ore"}}
